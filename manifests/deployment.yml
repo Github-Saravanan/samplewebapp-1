@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: samplewebapp 
-          image: sarvananaa123/dotnet-1
+          image: sampleappln.azurecr.io/github-saravanan/samplewebapp:#{Build.BuildId}#
           ports:
           - containerPort: 80
 ---
